@@ -380,7 +380,7 @@ footer p
 }
 
 /* ====== Extra Small Devices: Mobile Phones (<600px) ====== */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   header {
     flex-direction: column;
     padding: 15px;
@@ -425,10 +425,9 @@ footer p
   }
 
   .services-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
+
+     grid-template-columns: 1fr;/* 3 cards per row */
+  
   }
   .service-card {
     width: 90%;
