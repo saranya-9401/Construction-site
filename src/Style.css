@@ -385,6 +385,10 @@ footer p
     flex-direction: column;
     padding: 15px;
   }
+ .logo
+ {
+  font-size:15px;
+ }
   .nav-links {
     position: absolute;
     top: 60px;
@@ -442,7 +446,7 @@ footer p
   .contact-section p {
     margin-left: 0;
     width: 90%;
-    padding: 30px;
+    padding: 20px;
   }
   .map, iframe {
     width: 90%;
