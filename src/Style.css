@@ -286,24 +286,7 @@ text-align:center;
   
 }
 
-/* Mobile Responsive Design */
-@media (max-width: 900px) {
-  .services-container {
-    gap: 20px;
-    padding: 20px;
-  }
-}
 
-@media (max-width: 600px) {
-  .services-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .service-card {
-    width: 90%; /* Makes it fill most of the screen */
-  }
-}
 /*contact*/
 .contact-section
 {
@@ -385,10 +368,7 @@ footer p
     flex-direction: column;
     padding: 15px;
   }
- .logo
- {
-  font-size:15px;
- }
+
   .nav-links {
     position: absolute;
     top: 60px;
